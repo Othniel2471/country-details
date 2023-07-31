@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>React 18 Alpha</h1>
+      <h1>React App</h1>
     </div>
   );
 }
