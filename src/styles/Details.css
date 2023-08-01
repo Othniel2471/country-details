@@ -1,0 +1,71 @@
+a {
+  color: #fff;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.details-hero {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  color: #fff;
+  background-color: #3e63a5;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.country-flag {
+  width: 70%;
+  display: flex;
+  gap: 10px;
+}
+
+.details-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 100%;
+}
+
+.details-stats-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.first {
+  font-weight: 600;
+}
+
+.zone {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.zone:hover {
+  text-overflow: initial;
+  white-space: normal;
+  -webkit-line-clamp: initial;
+}
+
+.details-stats-item:nth-of-type(4n + 0),
+.details-stats-item:nth-of-type(4n + 2) {
+  background-color: #1c1818;
+}
