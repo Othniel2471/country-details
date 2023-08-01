@@ -54,7 +54,7 @@ This project is built with React.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- This is 'Crypto 360'<a href="https://countryinfo-3kif.onrender.com/">Live Demo Link</a>
+- This is 'Cpuntry Details'<a href="https://countryinfo-3kif.onrender.com/">Live Demo Link</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
