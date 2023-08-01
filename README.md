@@ -14,6 +14,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Live Demo](#Demo)
+    - [Presentation Video](#Presentation-video)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#Prerequisites)
 - [👥 Authors](#authors)
@@ -47,6 +49,20 @@ This project is built with React.
 - General information display
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- This is 'Crypto 360'<a href="https://countryinfo-3kif.onrender.com/">Live Demo Link</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Presentation <a name="Presentation"></a>
+
+<!-- Presentation Video -->
+
+- This is 'VidVib presentation'<a href="https://www.loom.com/share/82c31dedffe1480591b6a3ecc6b048f8?sid=34fcfc2c-3562-4f3d-aa22-88c0c34a0878">Presentation Video</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
