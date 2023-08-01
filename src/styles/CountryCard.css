@@ -1,0 +1,64 @@
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #4369b0;
+  transition: all 0.3s ease-in-out;
+}
+
+.country:nth-of-type(4n + 0),
+.country:nth-of-type(4n + 1) {
+  background-color: #3e63a5;
+}
+
+.country:hover {
+  border: solid 1px #fff;
+}
+
+.country-flag {
+  width: 70%;
+  display: flex;
+  gap: 10px;
+}
+
+.details-btn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+.country-flag img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.country-name {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.population {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .country:nth-of-type(4n + 1),
+  .country:nth-child(4n + 3) {
+    background-color: #3e63a5;
+  }
+
+  .country:nth-of-type(4n + 2),
+  .country:nth-of-type(4n + 4) {
+    background-color: #4369b0;
+  }
+}
